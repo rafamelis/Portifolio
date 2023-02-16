@@ -7,6 +7,10 @@ main{
     height: 100%!important;
     width: 100%!important;
 } 
+.navbar-toggler{
+    color: #ffffff!important;
+    background-color: #ffffff!important;
+}
 .navbar{
    
     --bs-navbar-color: rgba(255, 255, 255, 0.89)!important;
@@ -48,7 +52,7 @@ hr{
 }
 
 
-/* rodopé */
+/* rodapé */
 
 .rodinha{
     color: #ffffff!important;
