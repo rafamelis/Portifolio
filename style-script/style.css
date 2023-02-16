@@ -9,7 +9,7 @@ main{
 } 
 .navbar{
    
-    --bs-navbar-color: rgba(255, 255, 255, 0.55)!important;
+    --bs-navbar-color: rgba(255, 255, 255, 0.89)!important;
     --bs-navbar-hover-color: rgba(255, 254, 254, 0.87)!important;
     --bs-navbar-disabled-color: rgba(255, 255, 255, 0.644)!important;
     --bs-navbar-active-color: rgba(255, 255, 255, 0.9)!important;
