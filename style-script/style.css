@@ -1,9 +1,15 @@
-main{
-    min-height: 780px!important;
+body{
+    padding: 0px;
+    margin: 0px;
 }
+
+main{
+    height: 100%!important;
+    width: 100%!important;
+} 
 .infos{
     font-size: 23px!important;
-    min-width: 80%;
+    
 
 }
 .size{
@@ -16,7 +22,7 @@ div > #link:hover{
 }
 .rafamelis{
     max-width: 90%;
-    min-height: 85%;
+
 }
 
 h5{
@@ -33,11 +39,12 @@ hr{
 /* rodopé */
 
 .rodinha{
-    position: absolute;
+    
     bottom: 0!important;
     width: 100%;  
     
 }
+
 
 /* Experiencia */
 .card-b:hover{
@@ -97,6 +104,9 @@ div .nav-li {
     padding-right: 10px;
     padding-top: 20px;
 
+}
+.container-img{
+    padding-bottom: 10px;
 }
 .container-img > img:hover{
     transition: 1.5s;

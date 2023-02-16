@@ -5,3 +5,6 @@ elementH1.addEventListener('click', () =>{
     container.classList.toggle('active')
 
 })
+
+if (document.querySelector('body').offsetHeight > window.innerHeight)
+        document.querySelector('footer').classList.add('footer-relative');
