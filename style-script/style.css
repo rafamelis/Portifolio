@@ -7,6 +7,18 @@ main{
     height: 100%!important;
     width: 100%!important;
 } 
+.navbar{
+   
+    --bs-navbar-color: rgba(255, 255, 255, 0.55)!important;
+    --bs-navbar-hover-color: rgba(255, 254, 254, 0.87)!important;
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.644)!important;
+    --bs-navbar-active-color: rgba(255, 255, 255, 0.9)!important;
+    --bs-navbar-brand-color: rgba(255, 255, 255, 0.9)!important;
+    --bs-navbar-brand-hover-color: rgba(255, 255, 255, 0.9)!important;
+    margin-bottom: 20px;
+}
+/* Infos */
+
 .infos{
     font-size: 23px!important;
     
@@ -21,7 +33,7 @@ div > #link:hover{
     text-decoration:underline!important;
 }
 .rafamelis{
-    max-width: 90%;
+    max-width: 70%!important;
 
 }
 
@@ -39,7 +51,7 @@ hr{
 /* rodopé */
 
 .rodinha{
-    
+    color: #ffffff!important;
     bottom: 0!important;
     width: 100%;  
     
@@ -90,8 +102,9 @@ div .nav-li {
      font-size: 20px;
      margin: 5px 5px 5px ;
      justify-items: center;
+     color: #ffffff;
 }
-  
+
 
 .container-skills{
     padding-top: 30px;
