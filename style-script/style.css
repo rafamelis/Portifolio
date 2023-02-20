@@ -152,13 +152,5 @@ div .nav-li {
         max-width: 100%!important;
         max-height: 40%!important;
     }
-    
-    .navbar{
-        max-width: 100vh!important;
-        max-height: 100vh!important;
-    }
-    .rodinha{
-        max-width: 100vh!important;
-        max-height: 100vh!important;
-    }
+   
  }
