@@ -147,7 +147,7 @@ div .nav-li {
 
 
 
- @media screen and (min-width:800px) { 
+ @media screen and (max-width:800px) { 
     .container{
         max-width: 100%!important;
         max-height: 40%!important;
