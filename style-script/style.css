@@ -30,9 +30,23 @@ main{
 
 /* Infos */
 
+.fotoca{
+    width: 40rem !important;
+    margin: 10px
+    
+
+}
+
+.caixa-info{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgba(58, 56, 56, 0.685);
+    
+}
 .infos{
     font-size: 23px!important;
-    
+    text-align: center;
 
 }
 .size{
@@ -50,9 +64,13 @@ div > #link:hover{
 
 h5{
     font-size: 30px!important;
+    padding: 10px;
+    border-bottom: 2px;
+    border-style: solid;
 }
 div > p {
-    font-size: 20px!important;
+    font-size: 25px!important;
+    padding: 20px;
 }
 hr{
     width: 100%;
@@ -157,6 +175,9 @@ div .nav-li {
    }
    .navbar{
         min-width: 10vh!important;
+       }
+       .fotoca{
+        max-width: 22rem;
        }
  }
  
