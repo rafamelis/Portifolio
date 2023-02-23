@@ -177,7 +177,7 @@ div .nav-li {
         min-width: 10vh!important;
        }
        .fotoca{
-        max-width: 22rem;
+        max-width: 100%;
         margin: 0px;
        }
  }
