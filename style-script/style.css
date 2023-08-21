@@ -165,7 +165,44 @@ div .nav-li {
 
  /* Fim PG EXP */
 
+/* Pagina de contato*/
+.container{
+    text-align: center!important;
+}
+.container-form{
+    display: flex;
+    justify-content: space-between;
+}
+.parte-contatos{
+    flex-wrap: wrap;
+    width: 50%;
+    display: flex;
+    flex-direction: column wrap ;
+    justify-content: space-between;
+    
+}
+.coluna{
+    padding: 2em, 2em;
 
+}
+
+
+.formulario{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+
+}
+
+.btn-enviar{
+    margin-top: 15px ;
+    border-radius: 15px;
+    background-color: #282828;
+    color: #ffffff;
+    
+}
+ /* Fim Pagina de contato*/
 
  @media screen and (max-width:800px) { 
     .container{
