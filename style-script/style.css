@@ -169,16 +169,31 @@ div .nav-li {
 .container{
     text-align: center!important;
 }
+.container h1{
+    margin-bottom: 30px;
+}
 .container-form{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px ;
 }
 .parte-contatos{
     flex-wrap: wrap;
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column wrap ;
     justify-content: space-between;
+    
+}
+.parte-email{
+    flex-wrap: wrap;
+    width: 60%;
+    display: flex;
+    flex-direction: column wrap ;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: #282828;
+    border-radius: 20px;
     
 }
 .coluna{
@@ -186,21 +201,30 @@ div .nav-li {
 
 }
 
-
+.formulario label{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
 .formulario{
     display: flex;
     text-align: center;
     flex-direction: column;
-    
+    width: 80vh;
 
 }
 
 .btn-enviar{
+    padding-bottom: 0px;
     margin-top: 15px ;
     border-radius: 15px;
     background-color: #282828;
     color: #ffffff;
     
+}
+.wpp{
+   font-size: 50px!important;
+
 }
  /* Fim Pagina de contato*/
 
