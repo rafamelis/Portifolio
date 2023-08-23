@@ -226,6 +226,18 @@ div .nav-li {
    font-size: 50px!important;
 
 }
+
+input::placeholder {
+    color: #bebaba; /* Cor do texto do placeholder */
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15); /* Sombra do texto do placeholder */
+}
+textarea::placeholder {
+    color: #bebaba; /* Cor do texto do placeholder */
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15); /* Sombra do texto do placeholder */
+}
+.contatowpp a{
+    color: rgb(37 211 102) ;
+}
  /* Fim Pagina de contato*/
 
  @media screen and (max-width:800px) { 
