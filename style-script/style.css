@@ -210,7 +210,7 @@ div .nav-li {
     display: flex;
     text-align: center;
     flex-direction: column;
-    width: 65vh;
+    width: 60vh;
 
 }
 
@@ -231,12 +231,12 @@ div .nav-li {
 }
 
 input::placeholder {
-    color: #bebaba; /* Cor do texto do placeholder */
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15); /* Sombra do texto do placeholder */
+    color: #bebaba; 
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15); 
 }
 textarea::placeholder {
-    color: #bebaba; /* Cor do texto do placeholder */
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15); /* Sombra do texto do placeholder */
+    color: #bebaba;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15); 
 }
 .contatowpp a{
     color: rgb(37 211 102) ;
